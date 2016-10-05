@@ -9,14 +9,17 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+// Added by Jeyakumar
 app.get('/article-one', function (req, res) {
   res.send('Article one Requested and will be served here');
 });
 
+// Added by Jeyakumar
 app.get('/article-two', function (req, res) {
   res.send("Article TWO Requested and will be served here");
 });
 
+// Added by Jeyakumar
 app.get('/article-three', function (req, res) {
   res.send("Article THREE Requested and will be served here");
 });
